@@ -1,0 +1,25 @@
+# yaml-language-server: $schema=https://sap.github.io/ui5-tooling/schema/ui5.yaml.json
+
+specVersion: "3.1"
+metadata:
+  name: zdemo.zdemoso001
+type: application
+builder:
+  resources:
+    excludes:
+      - /test/**
+      - /localService/**
+  customTasks:
+    - name: deploy-to-abap
+      afterTask: generateCachebusterInfo
+      configuration:
+        target:
+          destination: NPL
+          url: http://vhcalnplci:44300
+        app:
+          name: ZDEMOSO_001
+          description: Demo SO 001
+          package: ZDEMO_UI5_APPS
+          transport: NPLK900082
+        exclude:
+          - /test/
