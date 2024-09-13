@@ -14,8 +14,8 @@ builder:
       afterTask: generateCachebusterInfo
       configuration:
         target:
-          destination: NPL
-          url: https://vhcalnplci:44300
+          destination: KOTT_SAP_NW_TR
+          url: http://vhcalnplci:44300
         app:
           name: ZDEMOSO_001
           description: Demo SO 001

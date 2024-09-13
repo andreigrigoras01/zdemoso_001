@@ -17,9 +17,9 @@ server:
           url: https://ui5.sap.com
         backend:
           - path: /sap
-            url: https://vhcalnplci:44300
+            url: http://vhcalnplci:44300
             client: '001'
-            destination: NPL
+            destination: KOTT_SAP_NW_TR
     - name: fiori-tools-appreload
       afterMiddleware: compression
       configuration:
