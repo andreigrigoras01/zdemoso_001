@@ -22,7 +22,7 @@
             "internalConsoleOptions": "openOnSessionStart",
             "outputCapture": "std",
             "env": {
-                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/DemoNPLApps/zdemoso_001\"}",
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/zdemoso_001\"}",
                 "FIORI_TOOLS_BACKEND_CONFIG": "[{\"path\":\"/sap\",\"url\":\"http://vhcalnplci:44300\",\"client\":\"001\",\"destination\":\"NPL\"}]",
                 "FIORI_TOOLS_URL_PARAMS": "sap-ui-xx-viewCache=false"
             }
